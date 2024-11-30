@@ -1,0 +1,109 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  form div{
+    margin-top: 1em;
+  }
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+  }
+  .button {
+    padding-left: 90px;
+    margin-left: 0.5em;
+  }
+.ul2{
+  display: none;
+}
+ul{
+  list-style: none;
+}
+header, ul{
+  display: flex;
+  flex-direction: row;
+}
+li{
+  padding: 0 20px;
+}
+a {
+  text-decoration: none;
+}
+
+.div1{  
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.div2{
+  display: flex;
+  justify-content: space-between;
+}
+.div3{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+html{
+  background-color: #ff82b6;
+}
+img{
+  border-radius: 40px;
+}
+@media screen and (max-width:1020px) {
+    .div2{
+    display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+    img{
+        display: flex;
+        width: 95%;
+        height: 100vh;
+        position: relative;
+    }
+    .div1{
+        width: 100vw;
+        justify-content: center;
+        margin: 0%;
+    }
+    form{        
+        width: 95%;
+        margin: 10px;
+    }
+    input,textarea,label{
+        width: 95%;
+    }
+    body{
+        margin: 0%;
+    }
+    label {
+        display: inline-block;
+        text-align: left;
+      }
+      .button{
+        justify-content: center;        
+        padding-left: 0;
+      }
+}
