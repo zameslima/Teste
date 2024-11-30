@@ -1,3 +1,15 @@
+header{
+  display: flex;
+  background-color: #ff82b6;
+  height: 7vh;
+  width: 100%;
+  padding: auto;
+  margin: 3px;
+  align-items: center;
+}
+button{
+  border-radius: 5px;
+}
 form {
     margin: 0 auto;
     width: 400px;
@@ -15,7 +27,7 @@ form {
   }
   input,
 textarea {
-  font: 1em sans-serif;
+  font: 1em sans-serif; 
   width: 300px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -38,12 +50,10 @@ textarea {
   display: none;
 }
 ul{
-  list-style: none;
-}
-header, ul{
-  display: flex;
+  list-style: none;  
   flex-direction: row;
 }
+
 li{
   padding: 0 20px;
 }
@@ -55,6 +65,9 @@ a {
   display: flex;
   justify-content: center;
   width: 50%;
+}
+#butmenu{
+  height: 70%;
 }
 .div2{
   display: flex;
@@ -79,8 +92,8 @@ img{
     }
     img{
         display: flex;
-        width: 95%;
-        height: 100vh;
+        width: 50%;
+        height: auto;
         position: relative;
     }
     .div1{
