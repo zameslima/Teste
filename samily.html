@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClickCreative</title>
-    <link rel="stylesheet" href="samily.css">
-    <link rel="icon" type="image/png"href="logotipo site .png">
-    <script src="samily.js"></script>
-</head>
-<body>
-  
-    <div>
 
-      <button onclick="menuShow()">&#9776;</button>
-        <ul class="ul2">
-          <li><a href="index.html">Initial</a></li>
-            <li><a href="samily.html">Cadastre</a></li>
-            <li><a href="canva.html">Presentation</a></li></ul>
-    </div>
-    <div  class="div2">
-       <div class="div1">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClickCreative</title>
+  <link rel="stylesheet" href="samily.css">
+  <link rel="icon" type="image/png" href="logotipo site .png">
+  <script src="samily.js"></script>
+</head>
+
+<body>
+  <header>
+    <button id="butmenu" onclick="menuShow()">&#9776;</button>
+    <ul class="ul2">
+      <li><a href="index.html">Initial</a></li>
+      <li><a href="samily.html">Cadastre</a></li>
+      <li><a href="canva.html">Presentation</a></li>
+    </ul>
+
+  </header>
+  <section>
+    <div class="div2">
+      <div class="div1">
         <img src="logotipo site .png" alt="">
-       </div >
-       <div  class="div1">
-      <form >
+      </div>
+      <div class="div1">
+        <form>
           <div>
             <label for="nome">Name:</label>
             <input type="text" id="nome" />
@@ -37,11 +40,16 @@
             <textarea id="msg"></textarea>
           </div>
           <div class="button">
-              <button type="submit" onclick="funcao1()">Send your Message</button>
-            </div>
+            <button type="submit" onclick="funcao1()">Send your Message</button>
+          </div>
         </form>
-       </div>
+      </div>
     </div>
-    
+  </section>
+  <footer>
+
+  </footer>
+
 </body>
+
 </html>
