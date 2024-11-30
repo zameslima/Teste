@@ -1,24 +1,36 @@
+header{
+    display: flex;
+    background-color: #ff82b6;
+    height: 7vh;
+    width: 100%;
+    padding: auto;
+    margin: 3px;
+    align-items: center;
+
+  }
+  #butmenu{
+    height: 70%;
+    margin: 0;
+  }
 object{
     width: 95vw;
     height: 100vh;
     padding: 0%;
 }
+ul{
+    display: none;
+    flex-direction: row;
+    list-style: none;   
+}
 li{
     padding: 0 20px;
-}
-ul{
-    display: flex;
-    flex-direction: row;
-}
-ul{
-    list-style: none;
-}
+  }
+  a {
+    text-decoration: none;
+  }
 button{
     margin: 15px;
     height: 30px;
-}
-body{
-    width: 100vw;
 }
 html, body{
     width: 100vw;
@@ -41,10 +53,7 @@ div{
     justify-content: center;
     
 }
-#principal{
-    flex-direction: column;
-    width: 100vw;
-}
+
 @media screen and (max-width:1020px ) {
     body{
         width: 100%;
@@ -56,5 +65,8 @@ div{
         display: flex;
         object-fit: fill;
         zoom: 1;
+    }
+    header{
+        align-items: center;
     }
 }
